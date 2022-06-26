@@ -11,6 +11,7 @@ public class Stream1{
         l.add(18);
         l.add(22);
         l.add(25);
+    
         System.out.println(l);
 
         List<Integer>l2=l.stream().filter(i->i%2==0).collect(Collectors.toList());
@@ -18,6 +19,4 @@ public class Stream1{
         System.out.println(l2);
         
       }
-      
- 
-}
+   }
